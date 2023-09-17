@@ -1,0 +1,29 @@
+/* menu */
+.memo {
+    width: 160px;
+    height: 48px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.memo img {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+.link{
+    text-decoration: none;
+}
+.memo span {
+    color: #FFF;
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 23px;
+}
+.memo span:hover{
+    cursor: pointer;
+    color: #FF963C;
+}

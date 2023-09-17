@@ -1,0 +1,24 @@
+.listHex {
+    width: 960px;
+    display: flex;
+    justify-content: space-evenly;
+    margin:32px 0;
+}
+
+.listHex img {
+    width: 136px;
+    height: 136px;
+    cursor: pointer;
+}
+
+@media (max-width: 1023px){
+    .listHex {
+        width: 75vw;
+        margin:2.5vw 0;
+    }
+    
+    .listHex img {
+        width: 10.625vw;
+        height: 10.625vw;
+    }
+}

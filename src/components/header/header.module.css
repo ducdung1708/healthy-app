@@ -1,0 +1,47 @@
+.header {
+    position: relative;
+    height: 64px;
+    background-color: #414141;
+    display: flex;
+}
+
+/* logo healthy */
+.logo {
+    position: absolute;
+    left: 12.5%;
+    width: 109px;
+    height: 40px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+/* danh sach menu */
+.list_navi_memo {
+    position: absolute;
+    height: 64px;
+    right: 208px;
+    display: flex;
+}
+
+/* icon menu mo rong */
+.icon_menu {
+    position: absolute;
+    margin-top: 16px;
+    width: 32px;
+    height: 32px;
+    right: 12.5%;
+    cursor: pointer;
+}
+
+@media (min-width: 740px) and (max-width: 1023px){
+    .list_navi_memo{
+        display: none;
+    }
+}
+
+@media (max-width: 739px){
+    .list_navi_memo{
+        display: none;
+    }
+}
+

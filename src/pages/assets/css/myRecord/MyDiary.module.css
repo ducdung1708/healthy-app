@@ -1,0 +1,93 @@
+.my_diary {
+    margin-top: 56px;
+}
+
+.title {
+    width: 229px;
+    height: 32px;
+    color: #414141;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.11px;
+}
+
+.diary {
+
+    width: 231px;
+    height: 231px;
+    border: 2px solid #707070;
+    background: var(--27-custom-style, #FFF);
+}
+
+.calendar {
+    width: 125px;
+    height: 48px;
+    color: #414141;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.09px;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.text {
+    width: 200px;
+    height: 132px;
+    color: #414141;
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0.06px;
+    position: absolute;
+    top: 72px;
+    left: 16px;
+}
+
+@media (max-width: 1023px){
+    .my_diary {
+        margin-top: 4.375vw;
+    }
+    
+    .title {
+        width: 17.89063vw;
+        height: 2.5vw;
+        font-size: 1.71875vw;
+        line-height: 2.10938vw;
+        letter-spacing: 0.11px;
+    }
+    
+    .diary {
+        width: 18.04688vw;
+        height: 18.04688vw;
+        border: 0.15625vw solid #707070;
+    }
+    
+    .calendar {
+        width: 9.76563vw;
+        height: 3.75vw;
+        font-size: 1.40625vw;
+        line-height: 1.71875vw;
+        letter-spacing: 0.09px;
+        top: 1.25vw;
+        left: 1.25vw;
+    }
+    
+    .text {
+        width: 15.625vw;
+        height: 10.3125vw;
+        font-size: 0.9375vw;
+        line-height: 1.32813vw;
+        letter-spacing: 0.06px;
+        top: 5.625vw;
+        left: 1.25vw;
+    }
+}

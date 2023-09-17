@@ -1,0 +1,41 @@
+footer {
+    height: 100px;
+    background: #414141;
+    margin-top: 64px;
+    line-height: 100px;
+}
+
+footer span {
+    color: #FFF;
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.033px;
+    margin-right: 45px;
+
+}
+footer span:first-child{
+    margin-left: 160px;
+}
+footer span:hover{
+    cursor: pointer;
+    color: #FF963C;
+}
+@media (max-width: 1023px){
+    footer {
+        height: 7.8125vw;
+        margin-top: 5vw;
+        line-height: 7.8125vw;
+    }
+    
+    footer span {
+        font-size: 0.85938vw;
+        letter-spacing: 0.033px;
+        margin-right: 3.51563vw;
+    
+    }
+    footer span:first-child{
+        margin-left: 12.5vw;
+    }
+}

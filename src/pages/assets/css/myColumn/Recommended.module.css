@@ -1,0 +1,89 @@
+.list_recommended {
+    width: 960px;
+    height: 144px;
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommended {
+    width: 216px;
+    height: 144px;
+    background-color: #2E2E2E;
+    position: relative;
+    cursor: pointer;
+}
+
+.title {
+    position: absolute;
+    left: 8px;
+    top: 24px;
+    width: 200px;
+    height: 54px;
+    color: #FFCC21;
+    text-align: center;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.11px;
+}
+
+.recommended>img {
+    position: absolute;
+    top: 88px;
+    left: 80px;
+}
+
+.text {
+    width: 200px;
+    height: 26px;
+    position: absolute;
+    top: 96px;
+    left: 8px;
+    color: #FFF;
+    text-align: center;
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+@media (max-width: 1023px) {
+    .list_recommended {
+        width: 75vw;
+        height: 11.25vw;
+        margin-top: 4.375vw;
+    }
+
+    .recommended {
+        width: 16.875vw;
+        height: 11.25vw;
+    }
+
+    .title {
+        left: 0.625vw;
+        top: 1.875vw;
+        width: 15.625vw;
+        height: 4.21875vw;
+        font-size: 1.71875vw;
+        line-height: 2.10938vw;
+        letter-spacing: 0.11px;
+    }
+
+    .recommended>img {
+        top: 6.875vw;
+        left: 6.25vw;
+    }
+
+    .text {
+        width: 15.625vw;
+        height: 2.03125vw;
+        top: 7.5vw;
+        left: 0.625vw;
+        font-size: 1.40625vw;
+        line-height: 2.03125vw;
+    }
+}

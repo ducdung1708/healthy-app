@@ -1,0 +1,60 @@
+.container {
+    margin-top: 4.375vw;
+}
+
+.column {
+    width: 18.28125vw;
+    height: 18.28125vw;
+    position: relative;
+}
+
+.column>img {
+    width: 100%;
+    height: 11.25vw;
+}
+
+.date_time {
+    width: 11.25vw;
+    height: 1.875vw;
+    background-color: #FFCC21;
+    position: absolute;
+    top: 9.375vw;
+    line-height: 1.875vw;
+}
+
+.date_time span {
+    margin-left: 0.625vw;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.17188vw;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.description {
+    margin-top: 0.39063vw;
+    width: 18.125vw;
+    height: 3.75vw;
+    color: #414141;
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 1.17188vw;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.71875vw;
+    letter-spacing: 0.075px;
+}
+
+.hash_tag {
+    display: flex;
+    width: 18.125vw;
+    height: 1.875vw;
+    /* justify-content: center;  */
+    align-items: center;
+    color: #FF963C;
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 0.9375vw;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.71875vw;
+    letter-spacing: 0.06px;
+}

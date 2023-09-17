@@ -1,0 +1,42 @@
+.main_show {
+    width: 970px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.main_hide {
+    width: 970px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    height: 476px;
+    overflow: hidden;
+}
+.item {
+    width: 234px;
+    height: 234px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    position: relative;
+    cursor: pointer;
+}
+@media (max-width: 1023px){
+    .main_show {
+        width: 75.78125vw;
+        margin-top: 0.39063vw;
+    }
+    
+    .main_hide {
+        width: 75.78125vw;
+        margin-top: 0.39063vw;
+        height: 37.1875vw;
+    
+    }
+    .item {
+        width: 18.28125vw;
+        height: 18.28125vw;
+        margin-right: 0.625vw;
+        margin-bottom: 0.625vw;
+    }
+}

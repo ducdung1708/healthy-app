@@ -1,0 +1,124 @@
+.container {
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    user-select: none;
+}
+
+.record {
+    position: relative;
+    width: 288px;
+    height: 288px;
+    background-color: #FFCC21;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.image {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    width: 240px;
+    height: 240px;
+}
+
+.record img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top left;
+    filter: grayscale(80%);
+}
+
+.gray_filter {
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    background-color: #2826264a;
+
+}
+
+.title {
+    position: absolute;
+    top: 112px;
+    left: 24px;
+    width: 240px;
+    height: 30px;
+    color: #FFCC21;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.125px;
+}
+
+.text {
+    width: 160px;
+    height: 24px;
+    background: #FF963C;
+    position: absolute;
+    top: 153px;
+    left: 64px;
+    color: #FFF;
+    text-align: center;
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+@media (max-width: 1023px) {
+    .container {
+        margin-top: 4.375vw;
+        width: 75vw;
+    }
+
+    .record {
+        width: 22.5vw;
+        height: 22.5vw;
+    }
+
+    .image {
+        top: 1.875vw;
+        left: 1.875vw;
+        width: 18.75vw;
+        height: 18.75vw;
+    }
+
+    .record img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .gray_filter {
+        width: 18.75vw;
+        height: 18.75vw;
+        top: 1.875vw;
+        left: 1.875vw;
+    }
+
+    .title {
+        top: 8.75vw;
+        left: 1.875vw;
+        width: 18.75vw;
+        height: 2.34375vw;
+        font-size: 1.95313vw;
+        line-height: 2.34375vw;
+        letter-spacing: 0.125px;
+    }
+
+    .text {
+        width: 12.5vw;
+        height: 1.875vw;
+        top: 11.95313vw;
+        left: 5vw;
+        font-size: 1.09375vw;
+        line-height: 1.5625vw;
+    }
+}

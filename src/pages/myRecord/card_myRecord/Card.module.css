@@ -1,0 +1,62 @@
+.body {
+    position: relative;
+    width: 960px;
+    height: 304px;
+    background: #414141;
+    margin-top: 56px;
+}
+
+.title {
+    position: absolute;
+    width: 96px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.15px;
+    left: 24px;
+    top: 16px;
+}
+
+.date {
+    width: 146px;
+    position: absolute;
+    left: 120px;
+    top: 16px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.11px;
+}
+
+@media (max-width: 1023px) {
+    .body {
+        width: 75vw;
+        height: 27vw;
+        margin-top: 4.375vw;
+    }
+
+    .title {
+        width: 7.5vw;
+        font-size: 1.17188vw;
+        line-height: 1.40625vw;
+        letter-spacing: 0.15px;
+        left: 1.875vw;
+        top: 1.25vw;
+    }
+
+    .date {
+        width: 11.40625vw;
+        left: 9.375vw;
+        top: 1.25vw;
+        font-size: 1.71875vw;
+        line-height: 2.10938vw;
+        letter-spacing: 0.11px;
+    }
+
+}

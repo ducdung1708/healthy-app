@@ -1,0 +1,35 @@
+.subMenu {
+    position: absolute;
+    top: 64px;
+    right: 12.5%;
+    width: 280px;
+    z-index: 10;
+}
+.link{
+    text-decoration: none;
+}
+
+.subMenu div {
+    width: 280px;
+    height: 64px;
+    background: #777;
+    border-bottom: solid #ffffff58 1px;
+}
+.subMenu div span{
+    color: #FFF;
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 64px;
+    margin-left: 32px;
+}
+.subMenu div span:hover{
+    cursor: pointer;
+    color: #FF963C;
+}
+@media (max-width: 739px){
+    .subMenu, .subMenu div{
+        width: 200px;
+    }
+}

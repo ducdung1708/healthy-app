@@ -1,0 +1,55 @@
+.exercise_list {
+    position: absolute;
+    width: 872px;
+    height: 184px;
+    top: 70px;
+    left: 24px;
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    flex-wrap: wrap;
+    margin-right: 26px;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Phần cuối cùng của thanh cuộn (nơi người dùng kéo thanh cuộn xuống) */
+::-webkit-scrollbar-thumb {
+    background-color: #FFCC21;
+    /* Màu sắc của thanh cuộn */
+    border-radius: 4px;
+    /* Bo tròn các góc */
+}
+
+/* Phần trên và dưới thanh cuộn */
+::-webkit-scrollbar-track {
+    background-color: #777777;
+    /* Màu nền của thanh cuộn */
+    border-radius: 4px;
+    /* Bo tròn các góc */
+}
+
+@media (max-width: 1023px){
+    .exercise_list {
+        width: 68.125vw;
+        height: 18vw;
+        top: 5.46875vw;
+        left: 1.875vw;
+        display: flex;
+        margin-right: 2.03125vw;
+    }
+    
+    ::-webkit-scrollbar {
+        width: 0.46875vw;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        border-radius: 0.3125vw;
+    }
+    
+    ::-webkit-scrollbar-track {
+        border-radius: 0.3125vw;
+    }
+}

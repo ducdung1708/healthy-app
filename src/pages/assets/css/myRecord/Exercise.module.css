@@ -1,0 +1,111 @@
+.excercise {
+    width: 416px;
+    height: 40px;
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.period {
+    margin-top: 7px;
+    width: 13px;
+    color: #FFF;
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 5px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 7px;
+    letter-spacing: 0.015px;
+}
+
+.content {
+    position: relative;
+    width: 400px;
+}
+
+.text {
+    position: absolute;
+    width: 197px;
+    color: #FFF;
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    /* 146.667% */
+    letter-spacing: 0.075px;
+}
+
+.kcal {
+    position: absolute;
+    bottom: 0;
+    width: 63px;
+    color: #FFCC21;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.075px;
+}
+
+.min {
+    width: 68px;
+    position: absolute;
+    right: 23px;
+    top: 0;
+    color: #FFCC21;
+    text-align: right;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.09px;
+}
+
+.excercise img {
+    position: absolute;
+    bottom: 0;
+}
+
+@media (max-width: 1023px) {
+    .excercise {
+        width: 32.5vw;
+        height: 4vw;
+        margin-bottom: 0.625vw;
+    }
+
+    .period {
+        margin-top: 0.54688vw;
+        width: 1.01563vw;
+        font-size: 0.39063vw;
+        line-height: 0.54688vw;
+        letter-spacing: 0.015px;
+    }
+
+    .content {
+        width: 31.25vw;
+    }
+
+    .text {
+        width: 15.39063vw;
+        font-size: 1.17188vw;
+        line-height: 1.71875vw;
+        letter-spacing: 0.075px;
+    }
+
+    .kcal {
+        width: 4.92188vw;
+        font-size: 1.17188vw;
+        line-height: 1.40625vw;
+        letter-spacing: 0.075px;
+    }
+
+    .min {
+        width: 5.3125vw;
+        right: 1.79687vw;
+        font-size: 1.40625vw;
+        line-height: 1.71875vw;
+        letter-spacing: 0.09px;
+    }
+}
