@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7e177b859bed1a0fe770",
+    "revision": "b4442b1ee346602d21c5",
     "url": "/healthy-app/static/css/main.25ec7bc5.chunk.css"
   },
   {
-    "revision": "7e177b859bed1a0fe770",
-    "url": "/healthy-app/static/js/main.9d704a41.chunk.js"
+    "revision": "b4442b1ee346602d21c5",
+    "url": "/healthy-app/static/js/main.d6e611e0.chunk.js"
   },
   {
     "revision": "e7d1967063ff966baead",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/healthy-app/static/media/line.c5419a64.svg"
   },
   {
-    "revision": "93f98ca3364db9d7b25cf9c1ca6724bb",
+    "revision": "ec57bc0fe74a0872405cf8f5f96227ec",
     "url": "/healthy-app/index.html"
   }
 ];
